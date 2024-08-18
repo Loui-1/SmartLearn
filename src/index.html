@@ -6,9 +6,6 @@ const Login = () => {
 };
   const handleLogin = (e) => {
     e.preventDefault();
-    // Here you can add your login logic, such as sending the email and password to your server for authentication
-    console.log('Email:', email);
-    console.log('Password:', password);
   };
 
   return (
@@ -58,7 +55,7 @@ const Login = () => {
                 type="checkbox"
                 className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
               />
-              <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-900">
+              <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-900" , type = "checkbox">
                 Remember me
               </label>
             </div>
@@ -88,4 +85,3 @@ const Login = () => {
     </div>
   );
 export default Login;
-}
