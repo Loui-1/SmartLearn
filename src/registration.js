@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/react';
+import { Menu, MenuButton, MenuItem } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
 
 const RegisterForm = () => {
@@ -110,7 +110,7 @@ const CourseMenu = () => (
       <div className="py-1">
         <MenuItem>
           <a
-            href="#"
+            href="/"
             className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
           >
             React Native
@@ -118,7 +118,7 @@ const CourseMenu = () => (
         </MenuItem>
         <MenuItem>
           <a
-            href="#"
+            href="/"
             className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
           >
             Database
@@ -128,7 +128,7 @@ const CourseMenu = () => (
       <div className="py-1">
         <MenuItem>
           <a
-            href="#"
+            href="/"
             className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
           >
             Open Source Operating System
@@ -136,7 +136,7 @@ const CourseMenu = () => (
         </MenuItem>
         <MenuItem>
           <a
-            href="#"
+            href="/"
             className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
           >
             Visual Basic
@@ -146,7 +146,7 @@ const CourseMenu = () => (
       <div className="py-1">
         <MenuItem>
           <a
-            href="#"
+            href="/"
             className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
           >
             Literature
@@ -154,7 +154,7 @@ const CourseMenu = () => (
         </MenuItem>
         <MenuItem>
           <a
-            href="#"
+            href="/"
             className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
           >
             Data Structures and Algorithms
@@ -164,7 +164,7 @@ const CourseMenu = () => (
       <div className="py-1">
         <MenuItem>
           <a
-            href="#"
+            href="/"
             className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
           >
             Human Computer Interaction
